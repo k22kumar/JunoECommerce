@@ -1,0 +1,555 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>ZAP</title>
+    <script src="https://kit.fontawesome.com/63b84c9d87.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css?family=Crimson+Text:400,600i|Montserrat:400,500,700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+
+<!-- To marker, there were a few issues I was not able to solve, if you are able to provide hints on how to fix them I would greatly appreciate it!
+    
+    I wasnt able to figure out how to get my products all in one div and still be able to have them as four products. My quick and dirty solution was to just break it into two divs and put four products on a line 
+
+    I dont know why but my hover for my products are wider than the product images when the width of the broswer is around 760px. I thought setting the width to 100% would match the image but it is matching the width of the container instead of the image.
+
+    The diamond that appears on hover in my second nav just above the product gallery, I could not get it to go down further via padding.
+
+-->
+
+<body>
+    <header>
+        <section class="landing-page-container wrapper">
+            <nav class="nav-main">
+                <div class="nav-logo"><img src="assets/header-logo.png" alt="woocommerce company logo"></div>
+                <div class="nav-ul-container">
+                    <div>
+                        <ul class="nav-ul">
+                            <li class="nav-links toUpper"><a class="nav-a" href="">home</a></li>
+                            <li class="nav-links toUpper"><a class="nav-a" href="">demos</a></li>
+                            <li class="nav-links toUpper"><a class="nav-a" href="">pages</a></li>
+                            <li class="nav-links toUpper"><a class="nav-a" href="">portfolio</a></li>
+                            <li class="nav-links toUpper"><a class="nav-a" href="">shop</a></li>
+                            <li class="nav-links toUpper"><a class="nav-a" href="">blog</a></li>
+                            <li class="nav-links nav-icons"> <a href="" class="nav-a"> <i
+                                        class="fas fa-shopping-cart"></i></a></li>
+                            <li class="nav-links nav-icons"><a href="" class="nav-a"><i class="fas fa-search"></i></a>
+                            </li>
+                        </ul>
+                        <nav class="mobile-nav">
+                            <label for="toggle"><i class="fa fa-bars"></i> Menu</label>
+                            <input type="checkbox" autocomplete="off" id="toggle" name="toggle">
+                            <ul class="mobile-ul">
+                                <li class="nav-links toUpper"><a class="nav-a" href="">home</a></li>
+                                <li class="nav-links toUpper"><a class="nav-a" href="">demos</a></li>
+                                <li class="nav-links toUpper"><a class="nav-a" href="">pages</a></li>
+                                <li class="nav-links toUpper"><a class="nav-a" href="">portfolio</a></li>
+                                <li class="nav-links toUpper"><a class="nav-a" href="">shop</a></li>
+                                <li class="nav-links toUpper"><a class="nav-a" href="">blog</a></li>
+                                <li class="nav-links nav-icons"> <a href="" class="nav-a"> <i
+                                            class="fas fa-shopping-cart"></i></a></li>
+                                <li class="nav-links nav-icons"><a href="" class="nav-a"><i
+                                            class="fas fa-search"></i></a>
+                                </li>
+                            </ul>
+
+                        </nav>
+                    </div>
+
+                </div>
+            </nav>
+            <div class="title-container">
+                <h2 class="psd-template toUpper">the zap- best psd template</h3>
+                    <h1 class="woocommerce toUpper">woocommerce</h1>
+                    <h2 class="discover toUpper">discover</h3>
+            </div>
+        </section>
+    </header>
+    <main>
+        <!-- Gallery start -->
+
+
+        <section class="wrapper">
+            <!-- Ad Section -->
+            <div class="mini-gallery">
+                <div class="mini-gallery-ad ad-left">
+                    <img src="assets/image-1.jpeg" alt="model posing with white t-shirt with black chevron">
+                    <div class="overlay">
+                        <p class="toUpper mini-ad-bordered-text">new trends</p>
+                    </div>
+                </div>
+                <div class="mini-gallery-ad ad-between">
+                    <img src="assets/image-2.jpeg" alt="model posing with blue t-shirt">
+                    <div class="overlay">
+                        <p class="toUpper mini-ad-sale">huge sale <span> off 70% </span></p>
+                    </div>
+                </div>
+                <div class="mini-gallery-ad ad-right">
+                    <img src="assets/image-3.jpeg" alt="up close shot of scarf product">
+                    <div class="overlay">
+                        <p class="toUpper mini-ad-bordered-text">accessories</p>
+                    </div>
+                </div>
+            </div>
+            <!-- product gallery start -->
+
+            <div>
+                <div class="product-gallery-container">
+                    <div class="new-arrival ">
+                        <h2 class="toUpper">new arrival</h2>
+                    </div>
+                    <nav class="product-nav">
+                        <ul class="product-ul">
+                            <li class="product-li"><a href="" class="product-a toUpper">men's <p
+                                        class="product-selector">&#9670</p></a></li>
+                            <li class="product-li"><a href="" class="product-a toUpper">women <p
+                                        class="product-selector">&#9670</p></a></li>
+                            <li class="product-li"><a href="" class="product-a toUpper">accessories <p
+                                        class="product-selector">&#9670</p></a></li>
+                            <li class="product-li"><a href="" class="product-a toUpper">beauty <p
+                                        class="product-selector">&#9670</p></a></li>
+                        </ul>
+                    </nav>
+                    <div class="product-gallery">
+                        <!-- start of row 2 products -->
+                        <div class="row">
+                            <div class="product-container product-left">
+                                <div>
+                                    <div class="product-image">
+                                        <img src="assets/image-4.jpeg" alt="model posing with brown rucksack">
+                                        <a href="">
+                                            <div class="product-overlay">
+                                                <p class="toUpper">add to cart &#10022</p>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div>
+                                        <a href="">
+                                            <p class="product-name toUpper">soft rucksack</p>
+                                        </a>
+                                        <p class="product-price">$79.00 <span class="original-price">$128.00</span></p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="product-container product-between">
+                                <div>
+                                    <div class="product-image">
+                                        <img src="assets/image-5.jpeg"
+                                            alt="model posing with black and white patterned coat">
+                                        <a href="">
+                                            <div class="product-overlay">
+                                                <p class="toUpper">add to cart &#10022</p>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div>
+                                        <a href="">
+                                            <p class="product-name toUpper">jacquard floral coat</p>
+                                        </a>
+                                        <p class="product-price">$79.00 <span class="original-price">$128.00</span></p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="product-container product-between">
+                                <div>
+                                    <div class="product-image">
+                                        <img src="assets/image-6.jpeg"
+                                            alt="model posing with white long checked overshirt">
+                                        <a href="">
+                                            <div class="product-overlay">
+                                                <p class="toUpper">add to cart &#10022</p>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div>
+                                        <a href="">
+                                            <p class="product-name toUpper">long checked overshirt</p>
+                                        </a>
+                                        <p class="product-price">$79.00 <span class="original-price">$128.00</span></p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="product-container product-right">
+                                <div>
+                                    <div class="product-image">
+                                        <img src="assets/image-7.jpeg"
+                                            alt="model posing with blue loose fit trench coat">
+                                        <div class="feature-overlay">
+                                            <p class="toUpper">
+                                                new
+                                            </p>
+                                        </div>
+                                        <a href="">
+                                            <div class="product-overlay">
+                                                <p class="toUpper">add to cart &#10022</p>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div>
+                                        <a href="">
+                                            <p class="product-name toUpper">loose-fit trech coat</p>
+                                        </a>
+                                        <p class="product-price">$79.00</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- end of row 1 products -->
+                        </div>
+                        <!-- start of row 2 products -->
+                        <div class="row">
+                            <div class="product-container product-left">
+                                <div>
+                                    <div class="product-image">
+                                        <img src="assets/image-8.jpeg" alt="brown straw hat with dark brim">
+                                        <a href="">
+                                            <div class="product-overlay">
+                                                <p class="toUpper">add to cart &#10022</p>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div>
+                                        <a href="">
+                                            <p class="product-name toUpper">two-tone straw hat</p>
+                                        </a>
+                                        <p class="product-price">$79.00 <span class="original-price">$128.00</span></p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="product-container product-between">
+                                <div>
+                                    <div class="product-image">
+                                        <img src="assets/image-9.jpeg" alt="pair of ladys slippers with flower print">
+                                        <div class="feature-overlay">
+                                            <p class="toUpper">
+                                                sale
+                                            </p>
+                                        </div>
+                                        <a href="">
+                                            <div class="product-overlay">
+                                                <p class="toUpper">add to cart &#10022</p>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div>
+                                        <a href="">
+                                            <p class="product-name toUpper">jacquard floral coat</p>
+                                        </a>
+                                        <p class="product-price">$79.00</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="product-container product-between">
+                                <div>
+                                    <div class="product-image">
+                                        <img src="assets/image-10.jpeg"
+                                            alt="luxury watch with dark strap and white face">
+                                        <a href="">
+                                            <div class="product-overlay">
+                                                <p class="toUpper">add to cart &#10022</p>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div>
+                                        <a href="">
+                                            <p class="product-name toUpper">revue thomens 1978</p>
+                                        </a>
+                                        <p class="product-price">$79.00 <span class="original-price">$128.00</span></p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="product-container product-right">
+                                <div>
+                                    <div class="product-image">
+                                        <img src="assets/image-11.jpeg"
+                                            alt="brown over the shoulder type carrying bag with brown strap">
+                                        <a href="">
+                                            <div class="product-overlay">
+                                                <p class="toUpper">add to cart &#10022</p>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div>
+                                        <a href="">
+                                            <p class="product-name toUpper">printed backpack</p>
+                                        </a>
+                                        <p class="product-price">$79.00</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- end of row 2 products -->
+                        </div>
+                    </div>
+
+
+
+
+                </div>
+
+
+
+                <!-- product gallery end -->
+            </div>
+        </section>
+        <!-- featured fashions start -->
+        <section>
+
+            <div class="featured-container">
+                <div>
+                    <img src="assets/main-image-2.jpeg" alt="model posing with black and light brown patterned scarf">
+                </div>
+                <div class="featured-text-container featured1">
+                    <h1 class="featured-heading toUpper">reclaimed vintage dogtooth blanket scarf</h1>
+                    <p class="featured-text">Free Shipping Worldwide</p>
+                    <p class="featured-price">$45.00</p>
+                    <a href="">
+                        <div class="featured-link-container">
+                            <p class="featured-link toUpper"> shopping now</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+
+
+            <div class="featured-container">
+                <div>
+                    <img src="assets/main-image-3.jpeg"
+                        alt="model posing with white long sleeved shirt with words ninety-nine percent chance of wine">
+                </div>
+                <div class="featured-text-container featured2">
+                    <h1 class="featured-heading toUpper">asos cropped sweatshirt with 99% chance</h1>
+                    <p class="featured-text">Free Shippping Worldwide</p>
+                    <a href="">
+                        <div class="featured-link-container">
+                            <p class="featured-link toUpper">shopping now</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+
+            <!-- store info start -->
+            <section class="wrapper">
+                <div class="info-container">
+                    <div class="info-icon-container">
+                        <div class="info-icon">
+                            <i class="far fa-comment circle-border"></i>
+                            <div class="phone-info-icon">
+                                <i class="fas fa-phone-alt"></i>
+                            </div>
+                        </div>
+                        <div class="info-text">
+                            <h3 class="info-heading toUpper">shop gift</h3>
+                            <p>We have created the new macbook psd version with scalable vector shapes.</p>
+                        </div>
+                    </div>
+                    <div class="info-icon-container">
+                        <div class="info-icon">
+                            <i class="fas fa-magic circle-border"></i>
+                        </div>
+                        <div class="info-text">
+                            <h3 class="info-heading toUpper">free shipping</h3>
+                            <p>We have created the new macbook psd version with scalable vector shapes.</p>
+                        </div>
+                    </div>
+                    <div class="info-icon-container">
+                        <div class="info-icon">
+                            <i class="far fa-smile circle-border"></i>
+                        </div>
+                        <div class="info-text">
+                            <h3 class="info-heading toUpper">30 - days money back</h3>
+                            <p>We have created the new macbook psd version with scalable vector shapes.</p>
+                        </div>
+                    </div>
+                    <!-- store info end -->
+                </div>
+
+            </section>
+
+            <!-- featured fashions start -->
+            <div class="fashion-wear">
+                <div><img src="assets/image-12.jpeg"
+                        alt="model posing with striped shoulder-less long sleeve shirt, blue denim jeans and red shoes">
+                </div>
+                <div><img src="assets/image-13.jpeg"
+                        alt="model posing with white graphic long sleeve shirt, blue denim shorts and white shoes">
+                </div>
+                <div><img src="assets/image-14.jpeg"
+                        alt="model posing with red jacket, black tshirt, black jeans and black boots"></div>
+            </div>
+            <!-- featured fashions end -->
+
+            <section class="wrapper">
+
+
+                <div class="fashion-heading-container">
+                    <h2 class="fashion-heading toUpper">fashion news</h2>
+                </div>
+
+                <div class="fashion-gallery-container">
+                    <div class="fashion-news-container fashion-left">
+                        <div class="fashion-image">
+                            <img src="assets/fashion-news-1.jpeg"
+                                alt="model wearing white dress sitting in grassy area">
+                        </div>
+                        <div class="fashion-text-container">
+                            <h3>Faster Response Time with Reverse</h3>
+                            <h4>by Natasha</h4>
+                            <div class="fashion-icons-container">
+                                <div class="fashion-icons">
+                                    <div class="comment-icon">
+
+                                        <i class="far fa-comment"></i>
+                                        <div class="bottom-chat-bubble">
+                                            <i class="fas fa-comment "></i>
+                                        </div>
+                                        <p class="icon-text-padding ">97</p>
+                                    </div>
+                                    <div class="fashion-views">
+                                        <i class="far fa-eye"></i>
+                                        <p class="icon-text-padding ">567</p>
+                                    </div>
+                                    <div class="fashion-bookmark">
+                                        <i class="far fa-bookmark"></i>
+                                        <p class="icon-text-padding ">Photography</p>
+                                    </div>
+                                </div>
+                                <div class="fashion-date">
+                                    <p>07</p>
+                                    <p class="toUpper">jun</p>
+                                </div>
+                            </div>
+                            <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium
+                                voluptatum deleniti atque corrupti quos molestias excepturi sint occaecati cupiditate
+                                non provident</p>
+                        </div>
+                    </div>
+                    <div class="fashion-news-container fashion-between">
+                        <div class="fashion-image">
+                            <img src="assets/fashion-news-2.jpeg"
+                                alt="model wearing pink jacket looking at view of landscape">
+                        </div>
+                        <div class="fashion-text-container">
+                            <h3>Standard post with slide</h3>
+                            <h4>by Natasha</h4>
+                            <div class="fashion-icons-container">
+                                <div class="fashion-icons">
+                                    <div class="comment-icon">
+                                        <i class="far fa-comment"></i>
+                                        <div class="bottom-chat-bubble">
+                                            <i class="fas fa-comment "></i>
+                                        </div>
+                                        <p class="icon-text-padding ">97</p>
+                                    </div>
+                                    <div class="fashion-views">
+                                        <i class="far fa-eye"></i>
+                                        <p class="icon-text-padding ">567</p>
+                                    </div>
+                                    <div class="fashion-bookmark">
+                                        <i class="far fa-bookmark"></i>
+                                        <p class="icon-text-padding ">Photography</p>
+                                    </div>
+                                </div>
+                                <div class="fashion-date">
+                                    <p>07</p>
+                                    <p class="toUpper">jun</p>
+                                </div>
+                            </div>
+                            <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusanthium doloremque
+                                laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi</p>
+                        </div>
+                    </div>
+                    <div class="fashion-news-container fashion-right">
+                        <div class="fashion-image">
+                            <img src="assets/fashion-news-3.jpeg"
+                                alt="black and white photo of old man sitting down and playing violin underneath urban bridge">
+                        </div>
+                        <div class="fashion-text-container">
+                            <h3>Simple HTTP Server in NodeJS</h3>
+                            <h4>by Natasha</h4>
+                            <div class="fashion-icons-container">
+                                <div class="fashion-icons">
+                                    <div class="comment-icon">
+                                        <i class="far fa-comment"></i>
+                                        <div class="bottom-chat-bubble">
+                                            <i class="fas fa-comment "></i>
+                                        </div>
+                                        <p class="icon-text-padding ">97</p>
+                                    </div>
+                                    <div class="fashion-views">
+                                        <i class="far fa-eye"></i>
+                                        <p class="icon-text-padding ">567</p>
+                                    </div>
+                                    <div class="fashion-bookmark">
+                                        <i class="far fa-bookmark"></i>
+                                        <p class="icon-text-padding ">Photography</p>
+                                    </div>
+                                </div>
+                                <div class="fashion-date">
+                                    <p>07</p>
+                                    <p class="toUpper">jun</p>
+                                </div>
+                            </div>
+                            <p>But I must explain to you how all this mistaken idea of denouncing pleasure and praising
+                                pain was born and I will give you a complete account of the system, and expound the
+                                actual teachings of the great</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="fashion-heading-container">
+                    <h2 class="fashion-heading toUpper">testimonial</h2>
+                </div>
+
+                <div class="testi-container">
+                    <p class="testi-quote">&quot;There are many variations of passages of Lorem Ipsum available, but the
+                        majority have suffered alteration in some form, by injected humour, or randomised words which
+                        don't look even slightly believable.&quot;</p>
+                    <h3 class="quote-name toUpper">white shadow walker</h3>
+                    <p class="toUpper testi-position">ceo/founder dell</p>
+                    <div class="testi-selector-container">
+
+                        <a href="" class="testi-selector">
+                            <div>
+                                &#9210
+                            </div>
+                        </a>
+                        <a href="" class="testi-selector">
+                            <div>
+                                &#9210
+                            </div>
+                        </a>
+                        <a href="" class="testi-selector">
+                            <div>
+                                &#9210
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="fashion-heading-container">
+                    <h2 class="fashion-heading toUpper">our brands</h2>
+                </div>
+
+                <div class="partner-brands">
+                    <div class="brands"><img src="assets/partner-logo-1.png"
+                            alt="partner company logo for restaurant premium product"></div>
+                    <div class="brands"><img src="assets/partner-logo-2.png" alt="partner company logo for mountain">
+                    </div>
+                    <div class="brands"><img src="assets/partner-logo-3.png" alt="partner company logo for retrobrand">
+                    </div>
+                    <div class="brands"><img src="assets/partner-logo-4.png" alt="partner company logo for american">
+                    </div>
+                </div>
+
+            </section>
+        </section>
+    </main>
+    <footer></footer>
+</body>
+
+</html>
