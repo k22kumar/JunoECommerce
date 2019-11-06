@@ -139,7 +139,7 @@ main {
     justify-content: center;
 }
 
-.mini-gallery-ad {
+.mini-gallery-sale {
     position: relative;
     display: flex;
     justify-content: center;
@@ -148,15 +148,15 @@ main {
     /* align-items: center; */
 }
 
-.ad-left {
+.sale-left {
     margin: 20px 10px 20px 0px;
 }
 
-.ad-right {
+.sale-right {
     margin: 20px 0px 20px 10px;
 }
 
-.ad-between {
+.sale-between {
     margin: 20px 0px;
 }
 
@@ -170,7 +170,7 @@ main {
     width: 85%;
 }
 
-.mini-ad-bordered-text{
+.mini-sale-bordered-text{
     font-size: 2.2rem;
 border: 2px solid #e4e4e4;
 padding: 5px 15px;
@@ -178,12 +178,12 @@ padding: 5px 15px;
 
 
 
-.mini-ad-sale{
+.mini-sale{
     font-size: 1.5rem;
     font-weight: 700;
 }
 
-.mini-ad-sale span{
+.mini-sale span{
     font-size: 4rem;
     display: block;
 }
@@ -612,7 +612,7 @@ footer {
     }
 
 
-    .mini-ad-bordered-text {
+    .mini-sale-bordered-text {
         font-size: 2rem;
     }
 }
@@ -629,7 +629,7 @@ footer {
     .nav-ul {
         padding-left: 0;
     }
-    .mini-ad-bordered-text {
+    .mini-sale-bordered-text {
         font-size: 1.4rem;
     }
 
@@ -698,13 +698,13 @@ footer {
 @media (max-width: 800px) { 
 
 
-    .ad-left {
+    .sale-left {
         display: none;
     }
-    .ad-right {
+    .sale-right {
         display: none;
     }
-    .ad-between {
+    .sale-between {
         min-width: 160px;
         width: 60%;
     }
