@@ -705,8 +705,8 @@ footer {
         display: none;
     }
 
-    .mini-gallery {
-        display: inline-block;
+    .mini-gallery-sale{
+        display: block;
     }
 
     .sale-between {
