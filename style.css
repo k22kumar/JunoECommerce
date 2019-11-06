@@ -696,7 +696,9 @@ footer {
 }
 
 @media (max-width: 800px) { 
-
+    .mini-gallery-sale{
+        display: block;
+    }
 
     .sale-left {
         display: none;
@@ -705,9 +707,7 @@ footer {
         display: none;
     }
 
-    .mini-gallery-sale{
-        display: block;
-    }
+    
 
     .sale-between {
         min-width: 100px;
