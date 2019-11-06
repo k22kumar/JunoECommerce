@@ -704,6 +704,11 @@ footer {
     .sale-right {
         display: none;
     }
+
+    .mini-gallery {
+        display: inline-block;
+    }
+
     .sale-between {
         min-width: 100px;
         width: 100%;
