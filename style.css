@@ -705,7 +705,7 @@ footer {
         display: none;
     }
     .sale-between {
-        min-width: 160px;
+        min-width: 100px;
         width: 60%;
         height: auto;
     }
