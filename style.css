@@ -707,6 +707,7 @@ footer {
     .sale-between {
         min-width: 160px;
         width: 60%;
+        height: auto;
     }
 
     .product-container {
