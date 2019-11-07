@@ -716,6 +716,10 @@ footer {
         height: auto;
     }
 
+    .sale-between img{
+    margin: 0;
+    }
+
     .product-container {
         width: 60%;
         min-width: 160px;
